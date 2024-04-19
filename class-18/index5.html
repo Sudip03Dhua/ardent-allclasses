@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+let header="Hello";
+let tags=["Hii","Hello","My","Dear","Students"];
+let html=`<h2>${header}</h2><ul>`;
+for(const x of tags){
+    html+=`<li>${x}</li>`;
+}
+html+=`</ul>`;
+document.getElementById("demo").innerHTML=html;
+        </script>
+    </body>
+    </html>
